@@ -3,16 +3,25 @@ function calc1(number1, operator, number2)  {
         alert('На ноль делить нельзя');
 
     } else if (operator === '+') {
-        alert(number1 + number2);
+        let result1 = number1 + number2;
+        alert(result1);
+        return result1;
 
     } else if (operator === '-') {
-        alert(number1 - number2);
+        let result2 = (number1 - number2);
+        alert(result2);
+        return result2;
 
     } else if (operator === '*') {
-        alert(number1 * number2);
+        let result3 = (number1 * number2);
+        alert(result3);
+        return result3;
 
     } else if (operator === '/') {
-        alert(number1 / number2);
+        let result4 = (number1 / number2)
+        alert(result4);
+        return result4;
+
     }
 }
 
